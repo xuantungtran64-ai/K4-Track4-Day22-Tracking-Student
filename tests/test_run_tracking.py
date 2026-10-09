@@ -13,3 +13,4 @@ def test_color_for_id_difference():
     color1 = color_for_id(1)
     color2 = color_for_id(2)
     assert color1 != color2, "Hai track_id khác nhau nên sinh màu khác nhau"
+
